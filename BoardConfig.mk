@@ -69,8 +69,9 @@ TARGET_NO_BOOTLOADER := true
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
-# Charger
+# Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
+TARGET_PIXEL_CHARGE_ANIM := true
 
 # Display
 TARGET_HAS_HDR_DISPLAY := true
